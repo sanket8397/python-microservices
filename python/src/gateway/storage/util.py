@@ -1,6 +1,6 @@
 import pika, json
 
-def updload(f, fs, channel, access):
+def upload(f, fs, channel, access):
     # upload file to mongodb server with gridfs
     try:
         fid = fs.put(f)
